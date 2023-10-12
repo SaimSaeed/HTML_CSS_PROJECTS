@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/background00.jpg");
+    background-size: cover;
+    font-family: 'Dosis', sans-serif;
+
+}
+
+
+.headermenu{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+
+.logo{
+    width: 20%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    padding-top: 10px;
+}
+.logo img{
+    border: 3px solid rgb(210, 230, 34);
+    border-radius: 30px;
+   
+}
+
+nav{
+    background-color: black;
+}
+
+.menulist{
+    width: 80%;
+    text-align: right;
+   padding-right: 50px;
+}
+
+
+
+
+
+.menulist li {
+    display: inline-block;
+    text-transform: uppercase;
+    list-style: none;
+    letter-spacing: 2px;
+    padding-left: 50px;
+   
+
+}
+
+
+
+.menulist li a{
+    text-decoration: none;
+    color: #fff;
+   font-weight: 600;
+    font-size: 17px;
+    
+
+}
+
+
+.menulist li a:hover{
+    color: yellow;
+    
+}
+
+
+
+.headercontent{
+    width: 100%;
+    height: 220px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: rgb(2, 7, 7);
+    text-align: center;
+   background-color:rgb(231, 231, 4);
+   border: 4px solid turquoise;
+   
+}
+
+.headercontent h2{
+    margin-bottom: 34px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.3em;
+  
+}
+
+
+.headercontent h1{
+    margin-bottom: 30px;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 0.6em;
+
+
+}
+
+
+.headercontent button{
+    height: auto;
+    padding:8px 37px;
+    color: #fff;
+    font-size: 12px;
+    background-color: transparent;
+    margin-right: 20px;
+    border: 2px solid rgb(53, 204, 189);
+    border-radius: 16px;
+    background-color: rgb(59, 204, 190);
+   
+}
+
+.headercontent button:hover{
+    border: 2px solid rgb(218, 86, 158);
+    background-color: rgb(231, 52, 120);
+   
+
+}
+
+
+.headercontent button a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 15px;
+    font-weight: 800;
+   
+}
+
+
+
+section{
+   width:100%;
+   height: 60vh;
+   
+}
+section .video{
+   
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+
+    
+}
+
+
+section h2{
+    font-family:'Dosis', sans-serif; ;
+    text-align: center;
+    padding: 20px 0px;
+  
+}
+
+
+
+.end{
+    width: 100%;
+    border: 3px solid rgb(229, 233, 26);
+    background-color: rgb(36, 202, 207);
+   
+}
+
+.end .text{
+    text-align: center;
+    color: rgb(243, 70, 150);
+    font-family:'Dosis', sans-serif ;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
+
+section .video .frame{
+    max-width: 100%;
+    height: auto;
+   
+}
+
+
+
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+
+.line{
+    width: 33px;
+    background-color: white;
+    height: 6px;
+    margin: 4px 4px;
+}
+
+
+
+ @media only screen and (max-width:1460px) {
+    .logo{
+        padding-left: 6px;
+    }
+
+    .logo img{
+        width: 200px;
+    }
+    
+}
+
+
+
+@media only screen and (max-width:852px){
+
+
+    .menulist li{
+
+    display:flex;
+    justify-content: center;
+}
+
+.headermenu{
+  flex-direction: column;
+}
+
+    
+
+
+    .logo img{
+        width: 156px;
+       
+       
+        
+    }
+  
+
+  
+
+   .menulist{
+       display: none;
+   }
+    
+
+
+
+
+
+
+} 
+
+
+
+
+
+
+
+
+
+
+
